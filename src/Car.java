@@ -9,4 +9,17 @@ public class Car {
     Color paintColor;
     boolean areTailightsWorking;
 
+    // Constructor method used to build instances of the class with inputs to initialize car with.
+    // 'this' keyword is reference to new instance being created.
+
+    public Car(int inputAverageMPH,
+               String inputLicensePlate,
+               Color inputPaintColor,
+               boolean inputAreTailightsWorking) {
+        this.averageMilesPerGallon = inputAverageMPH;
+        this.licensePlate = inputLicensePlate;
+        this.paintColor = inputPaintColor;
+        this.areTailightsWorking = inputAreTailightsWorking;
+    }
+
 }
