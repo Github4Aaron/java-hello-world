@@ -12,3 +12,5 @@ public class Main {
 
 
 // System is a class; out is static is static property, and println is function
+
+// To run:   left click src folder, Main class, and click on "Run Main.main()"
