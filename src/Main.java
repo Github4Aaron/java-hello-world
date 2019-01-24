@@ -20,7 +20,11 @@ public class Main {
                false);
 
        System.out.println("My car's license plate is" + myCar.licensePlate);
-       System.out.println(("Aarons car's license plate is   " + aaronsCar.licensePlate));
+       System.out.println("Aarons car's license plate is   " + aaronsCar.licensePlate);
+
+       System.out.println(myCar.paintColor.toString());
+       myCar.changePaintColor(Color.PINK);
+        System.out.println(myCar.paintColor.toString());
     }
 }
 

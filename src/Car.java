@@ -22,4 +22,8 @@ public class Car {
         this.areTailightsWorking = inputAreTailightsWorking;
     }
 
+    public void changePaintColor(Color newPaintColor) {
+        this.paintColor = newPaintColor;
+    }
+
 }
