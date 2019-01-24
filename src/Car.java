@@ -1,10 +1,10 @@
-import java.awt.*
+import java.awt.*;
 
 public class Car {
 
     // DATA TYPES: int -> 1,2,3; double -> 2.5; String -> "apd 345"; Color -> abstract window toolkit; Boolean -> true/false;
 
-    int averageMilesPerGallon;
+    double averageMilesPerGallon;
     String licensePlate;
     Color paintColor;
     boolean areTailightsWorking;
@@ -12,7 +12,7 @@ public class Car {
     // Constructor method used to build instances of the class with inputs to initialize car with.
     // 'this' keyword is reference to new instance being created.
 
-    public Car(int inputAverageMPH,
+    public Car(double inputAverageMPH,
                String inputLicensePlate,
                Color inputPaintColor,
                boolean inputAreTailightsWorking) {
