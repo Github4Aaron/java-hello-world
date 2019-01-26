@@ -15,8 +15,12 @@ public class Dog {
         this.dogColor = inputDogColor;
         this.dogBreed = inputDogBreed;
         this.doesHeBite = inputDoesHeBite;
+
     }
 
+    public void bark(){
+        System.out.print("bark");
+    }
 
 
 }
