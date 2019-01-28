@@ -9,16 +9,12 @@ import java.util.Random;
 public class Main {
     // Uses Math class from java.lang library which uses class method .pow (didn't have to create instance)
     public static void main(String[] args) {
-     double power = Math.pow(5, 3);
-     System.out.println(power);
 
-     double squareRoots = Math.sqrt(64);
-     System.out.println(squareRoots);
-
-     Random rand = new Random();
-     int randomNum = rand.nextInt();
-     int randomNumWithBound = rand.nextInt(10);
-        System.out.println(randomNum);
-        System.out.println(randomNumWithBound);
+        Coin c = new Coin(Coin.HEADS);
+        System.out.println("Initial Value is " + c.getFaceUp());
+        for (int i = 0; i < 10; i++) {
+            c.flip();
+            System.out.println("After flip: " + c.getFaceUp());
+        }
     }
 }
