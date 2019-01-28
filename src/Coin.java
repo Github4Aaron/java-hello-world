@@ -13,8 +13,8 @@ public class Coin {
     private int faceUp;
 
     // Constructor that allows us to start with faceUP
-    public Coin(int start) {
-        faceUp = start;
+    public Coin() {
+        flip();
     }
 
     public void flip() {
